@@ -29,7 +29,7 @@ body {
     color: black;
   }
 
-  @media (max-width: 480px) {
+   @media (max-width: 480px) {
     body {
         background-image: url("https://e0.365dm.com/22/10/2048x1152/skysports-world-cup-qatar-2022_5921764.jpg");
     }
@@ -39,12 +39,12 @@ body {
     }
 
     #tablero{
-      width: 783; 
-      height: 500;
+      width: 100%; 
+      height: auto;
     }
     
     #instagram   {
-      width: 10px;
-      height: 10px;
+      width: 25px;
+      height: 25px;
     }
 }
